@@ -1,0 +1,73 @@
+@font-face {
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(https://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+body, div, h1, h2, h3, h4, h5, h6, 
+p, ul, ol, li, dl, dt, dd, img, form, 
+fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #ffffff;
+}
+
+/* completa tu codigo aqui */
+
+
+.cuadroceleste{
+	background-color: #77C3F8;
+	color: #77C3F8;
+	width: 70px;
+	height: 70px;
+	display: table-cell;
+	font-family: 'Dosis';
+
+}
+.cuadroverde{
+	background-color: #6FF0DD;
+	color: #6FF0DD;
+	width: 70px;
+	height: 70px;
+	display: table-cell;
+	font-family: 'Dosis';		
+}
+.cuadronaranjo{
+	background-color: #FFB683;
+	color: #FFB683;
+	width: 70px;
+	height: 70px;
+	display: table-cell;
+	font-family: 'Dosis';		
+}
+.cuadrorosado{
+	background-color: #FF949E;
+	color: #FF949E;
+	width: 70px;
+	height: 70px;
+	display: table-cell;
+	font-family: 'Dosis';		
+}
+
+.caja{
+	width: 70px;
+	height: 45px;
+	background-color: #333333;
+	display: none;
+	margin-left: 70px;
+	padding-top: 25px;
+	
+}
+a:hover .caja{
+	display: block;
+}
+
+li{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
